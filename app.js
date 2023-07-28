@@ -71,7 +71,7 @@ const wordRender = async (word) => {
     }
     catch(err) {
         console.log(err)
-        errMsg.innerHTML=err
+        errMsg.innerHTML="No such word found, Please try again"
         setTimeout(()=> {
             errMsg.innerHTML=""
         },3000)

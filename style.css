@@ -29,6 +29,10 @@ button{
     color: white;
     font-size: 1rem;
 }
+button:hover{
+    background-color: black;
+    color: white;
+}
 
 .wordContainer{
     display: flex;
@@ -70,4 +74,32 @@ span, .list {
 .word .details span{
     margin-top: 10px;
     color: black;
+}
+@media screen and (max-width: 600px) {
+    .wordContainer ul {
+        width: 300px;
+        height: 600px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        gap: 5px;
+    }
+    input{
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid black;
+        padding-left: 5px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .wordContainer ul {
+        width: 200px;
+        height: 600px;
+    }    
 }
