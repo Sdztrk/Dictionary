@@ -75,6 +75,22 @@ span, .list {
     margin-top: 10px;
     color: black;
 }
+
+.page-footer {
+    text-align: right;
+    font-size: 1rem;
+    color: black;
+    margin-top: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+  }
+  .page-footer span {
+    color: gray;
+  }
+
+
 @media screen and (max-width: 600px) {
     .container{
         display: flex;
